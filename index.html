@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200" rel="stylesheet">
+    <title> Spotify Search </title>
+
+</head>
+<body>
+        <div id="main">
+            <div id="search">
+                <div id=logo_area>
+                    <div id=logo></div>
+                    <h1> Spotify Search</h1>
+                </div>
+                <p>Search for any artist or album on Spotify </p>
+                <div>
+                    <input type="text" placeholder="Insert Text here" onclick="autofocus">
+                    <select>
+                        <option value="artist" selected>Artist</option>
+                        <option value="album" >Album</option>
+                    </select>
+                    <input type="submit" value="go" id="go">
+                </div>
+            </div>
+
+            <div id="results">
+
+            </div>
+            <!-- <div class="button" id="more"> More </div> -->
+            <a class="button" id="more"> More</a>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script1.js"> </script>
+</body>
+
+</html>
