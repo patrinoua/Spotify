@@ -1,3 +1,6 @@
+/* *{
+    margin: 0;
+} */
 p{
     color: rgba(255,255,255,0.8);
 }
@@ -38,9 +41,24 @@ h3{
     grid-template-rows: 1fr 3fr 100px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
+}
+#footer {
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
 }
 
+#footerLink{
+    color:whitesmoke;
+    text-decoration: none;
+}
 #search{
     display: flex;
     flex-direction: column;
@@ -98,10 +116,11 @@ h3{
 .button{
         align-self: center;
 }
-/* .button:hover {
-    border:2px solid #C0C0C0;
-} */
 
 .button:active {
     transform: translateY(4px);
+}
+
+a:hover{
+    cursor: pointer;
 }
